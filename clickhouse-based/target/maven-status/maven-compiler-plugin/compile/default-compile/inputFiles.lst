@@ -1,0 +1,7 @@
+/home/innuser003/Desktop/java-coding/clickhouse-based/src/main/java/com/innspark/clickhouse_based/ClickhouseBasedApplication.java
+/home/innuser003/Desktop/java-coding/clickhouse-based/src/main/java/com/innspark/clickhouse_based/config/JdbcConfiguration.java
+/home/innuser003/Desktop/java-coding/clickhouse-based/src/main/java/com/innspark/clickhouse_based/controller/StudentController.java
+/home/innuser003/Desktop/java-coding/clickhouse-based/src/main/java/com/innspark/clickhouse_based/entity/Student.java
+/home/innuser003/Desktop/java-coding/clickhouse-based/src/main/java/com/innspark/clickhouse_based/repository/StudentRepository.java
+/home/innuser003/Desktop/java-coding/clickhouse-based/src/main/java/com/innspark/clickhouse_based/service/StudentService.java
+/home/innuser003/Desktop/java-coding/clickhouse-based/src/main/java/com/innspark/clickhouse_based/service/StudentServiceImpl.java

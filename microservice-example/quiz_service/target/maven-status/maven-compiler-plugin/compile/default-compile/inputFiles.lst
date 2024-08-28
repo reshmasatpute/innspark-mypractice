@@ -1,0 +1,8 @@
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/QuizServiceApplication.java
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/controller/QuizController.java
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/entity/Question.java
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/entity/Quiz.java
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/repository/QuizRepository.java
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/service/QuestionClient.java
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/service/QuizService.java
+/home/innuser003/Desktop/microservice-example/quiz_service/src/main/java/com/inn_quiz_service/service/QuizServiceImpl.java
