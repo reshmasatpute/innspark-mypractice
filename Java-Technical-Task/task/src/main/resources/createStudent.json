@@ -1,0 +1,81 @@
+{
+	"post": {
+		"endpoint": "/auth/create",
+		"method": "POST",
+		"data": {
+			"studentName": "Sushant ",
+			"studentEmail": "sush@gmail.com",
+			"password": "sush@66"
+		}
+	},
+	"post": {
+		"endpoint": "/subject/create",
+		"method": "POST",
+		"data": {
+			"subjectId": "5",
+			"subjectName": "English"
+		}
+	},
+	"post": {
+		"endpoint": "/auth/generateToken",
+		"method": "POST",
+		"data": {
+			"username": "Reshma Satpute",
+			"password": "reshu@66"
+		}
+	},
+	"get": {
+		"endpoint": "/auth/validate",
+		"method": "GET",
+		"data": {
+			"token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJSZXNobWEgU2F0cHV0ZSIsImlhdCI6MTcyNjAyOTExMSwiZXhwIjoxNzI2MDMwOTExfQ.S-EwzhHHXwFsneDx0k_0woCMHQ7qEGpzbS7S80RLC4A"
+		}
+	},
+	"get": {
+		"endpoint": "/subject/findAll",
+		"method": "GET"
+	},
+	"post": {
+		"endpoint": "/marks/save",
+		"method": "POST",
+		"data": {
+			"studentId": 10,
+			"subjectMarks": [
+				{
+					"subjectName": "Java",
+					"marks": 95.5
+				},
+				{
+					"subjectName": "Python",
+					"marks": 90.0
+				},
+				{
+					"subjectName": "English",
+					"marks": 96.0
+				},
+				{
+					"subjectName": "Networking",
+					"marks": 80.0
+				},
+				{
+					"subjectName": "SQL",
+					"marks": 82.0
+				}
+			]
+		}
+	},
+	"get": {
+		"endpoint": "/marks/getStudentDetailsWithMarks",
+		"method": "GET",
+		"data": {
+			"studentId":1
+		}
+	},
+	"get": {
+			"endpoint": "/marks/getAllStudentDetailsWithSubjectsAndMarks",
+			"method": "GET",
+			"data": {
+				"subjectId":2
+			}
+		}
+}
